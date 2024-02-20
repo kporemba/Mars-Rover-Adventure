@@ -1,0 +1,169 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0;
+  background-color: #3D1308;
+  color: #E0E0CE;
+}
+
+.navigation {
+  margin: 0;
+  display: flex;
+  width: 100%;
+}
+.navigation__pages {
+  background-color: #7B0D1E;
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.navigation__pages-link {
+  cursor: pointer;
+  font-size: 2rem;
+  text-decoration: none;
+  list-style: none;
+  color: #E0E0CE;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 1rem;
+}
+.navigation__pages-link--logo {
+  color: #E0E0CE;
+  font-weight: 700;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 0;
+  background-color: #E8213f;
+}
+.heading__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #3D1308;
+  font-style: italic;
+  width: 100%;
+  height: 8rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #7b0D1E;
+}
+.description__text {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.camera-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem;
+}
+.camera-container__title {
+  font-size: 2rem;
+}
+
+.camera-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7B0D1E;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+.camera-one__title {
+  display: flex;
+  font-size: 2rem;
+}
+.camera-one__text {
+  display: flex;
+  margin: 0;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.camera-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FE5F00;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+.camera-two__title {
+  display: flex;
+  font-size: 2rem;
+}
+.camera-two__text {
+  display: flex;
+  margin: 0;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+#image-container {
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  width: 100%;
+  background-color: #3D1308;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#image-container-two {
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #3D1308;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+.image2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  width: auto;
+}/*# sourceMappingURL=marsMission.css.map */

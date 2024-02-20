@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Rover - Subscribe</title>
+    <link rel="stylesheet" href="../styles/subscribe.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div class="navigation">
+                    <div class="navigation__pages">
+                        <a href="../home-page.html" class="navigation__pages-link navigation__pages-link--logo">
+                            <li>Adventure on mars</li>
+                        </a>
+                        <a href="./subscribe.html" class="navigation__pages-link">
+                            <li>Subscribe</li>
+                        </a>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <img class="hero__image">
+            <div class="hero__container">
+                <h2 class="hero__subtitle">Apod</h2>
+                <h1 class="hero__title">Astronomy Picture of the Day</h1>
+            </div>
+        </div>
+        <div class="form-section">
+            <h1 class="form__container-title">Sign Up for Daily Astronomy Pictures</h1>
+            <form action="form.php" method="post">
+                <div class="row">
+                    <div class="form__container--left">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="form__container--right">
+                        <input type="text" id="fname" name="firstname" placeholder="First name"
+                            class="form__container--right-input">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form__container--left">
+                        <label for="lname">Last Name</label>
+                    </div>
+                    <div class="form__container--right">
+                        <input type="text" id="lname" name="lastname" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form__container--left">
+                        <label for="lname">Email</label>
+                    </div>
+                    <div class="form__container--right">
+                        <input type="text" id="lname" name="lastname" placeholder="Email">
+                    </div>
+                </div>
+                <div class="row submit">
+                    <a onclick="myFunction()" class="submit__button">Submit</button></a>
+
+                </div>
+            </form>
+
+            <div id="completed-form">
+                <div class="completed-form">
+                    <div class="completed-form__left">
+                        <h1 class="completed-form__title">Thank you!</h1>
+                        <p>Your first email will be delivered tomorrow</p>
+                    </div>
+                    <div class="completed-form__right">
+                        <img src="../assets/sky.jpeg" alt="logo image" class="completed-form__image">
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                function myFunction() {
+                    document.getElementById("completed-form").style.display = 'block'
+                }
+            </script>
+        </div>
+    </main>
+
+    <script href="../scripts/subscribe.js"></script>
+</body>
+
+</html>

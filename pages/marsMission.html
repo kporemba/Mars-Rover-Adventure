@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./marsMission.css">
+    <link rel="stylesheet" href="../styles/marsMission.css">
+
+    <title>Mars Mission</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div class="navigation">
+                    <div class="navigation__pages">
+                        <a href="../home-page.html" class="navigation__pages-link navigation__pages-link--logo">
+                            <li>Adventure on mars</li>
+                        </a>
+                        <a href="./subscribe.html" class="navigation__pages-link">
+                            <li>Subscribe</li>
+                        </a>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="heading">
+        <h1 class="heading__title">Welcome Astronaut. <br>This is Mission Mars</h1>
+        <div class="description">
+            <p class="description__text">In your adventure through MARS, your spaceships rover camera's will capture
+                captivating scenes for your
+                photographic journal.</p>
+            <p class="description__text">A look at today's captures from your MARS adventure.</p>
+        </div>
+    </div>
+    <!-- <hr> -->
+
+
+    <div class="camera-container">
+        <h1 class="camera-container__title">Camera Views</h1>
+        <br>
+        <div class="camera-one">
+            <h2 class="camera-one__title">Main Rover Camera Captures</h2>
+            <p class="camera-one__text">Camera 1 Photos</p>
+            <div id="image-container"></div>
+        </div>
+
+
+        <!-- <div class="camera-two">
+            <h2 class="camera-two__title">Second Rover Camera Captures</h2>
+            <p class="camera-two__text"> Camera 2 Photos</p>
+            <div id="image-container-two"></div>
+        </div> -->
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="../scripts/mission.js"></script>
+</body>
+
+</html>

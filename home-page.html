@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Rover - Home Page</title>
+    <link rel="stylesheet" href="./styles/home-page.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <div class="navigation">
+                    <div class="navigation__pages">
+                        <a href="home-page.html" class="navigation__pages-link navigation__pages-link--logo">
+                            <li>Adventure on mars</li>
+                        </a>
+                        <a href="./pages/subscribe.html" class="navigation__pages-link">
+                            <li>Subscribe</li>
+                        </a>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <div id="apiImage"></div>
+            <div class="hero__container">
+                <h2 class="hero__subtitle">Apod</h2>
+                <h1 class="hero__title">Astronomy Picture of the Day</h1>
+                <button class="hero__button"><a href="./pages/subscribe.html" class="hero__button-style">Subscribe
+                        now</a></button>
+            </div>
+        </div>
+        <div class="journeys">
+            <div class="journeys__card">
+                <!-- image -->
+                <h2 class="journeys__title">Days on Mars</h2>
+                <p class="journeys__description">Choose a day and see what it looked like on Mars</p>
+                <button class="journeys__button"><a href="./pages/missionByDate.html">Begin your Adventure</a></button>
+            </div>
+
+            <div class="journeys__card">
+                <!-- image -->
+                <h2 class="journeys__title">Mission on Mars</h2>
+                <p class="journeys__description">Forge your own path on Mars</p>
+                <button class="journeys__button"><a href="./pages/marsMission.html">Begin your Adventure</a></button>
+            </div>
+        </div>
+    </main>
+
+    <script href="./scripts/mission.js"></script>
+
+</body>
+
+</html>
